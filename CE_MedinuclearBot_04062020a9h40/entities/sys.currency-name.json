@@ -1,0 +1,9 @@
+{
+  "id": "6019ad94-f07a-40c8-85c2-7a6c06158d20",
+  "name": "sys.currency-name",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

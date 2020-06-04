@@ -1,0 +1,132 @@
+{
+  "id": "fcc3f15a-330a-43f0-b585-e108bb0a2265",
+  "name": "Registrar User Bot",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "RegistrarUserBot-followup",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ba118f70-67be-4385-b0cb-6a6242247a92",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "No eres parte de nuestra comunidad porfavor ayudame completando las siguiente preguntas.\nDime tu nombre:\n✍(◔◡◔)"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "f4be1cf4-d06e-4a45-a2f2-d37a17504312",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "lastName",
+          "value": "$lastName",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ayudame con tu apellido:\n✍"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "0fbcb437-6608-457c-8550-c977a3fbac7f",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "identificator",
+          "value": "$identificator",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ingresa tu número de cédula porfavor."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "09c8c9a6-137c-4037-8ba0-fdde6f6c0907",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "telf",
+          "value": "$telf",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Ayudame con tu número de teléfono porfavor : \n📞"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "ecbdbe62-ae20-4199-92dc-a4e672a3a32f",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "correo",
+          "value": "$correo",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Por ultimo necesito saber tu email"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Los datos ingresados son:\n\nNombre: *$name*\nApellido: *$lastName*\nC.I :  *$identificator*\nTeléfono; *$telf*\nCorreo: *$correo*\n\nDime si la información es correcta (SI👍 - NO👎)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "REGISTER_CUSTOMER_EVENT"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

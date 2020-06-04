@@ -1,0 +1,56 @@
+[
+  {
+    "id": "667f7a38-9cc9-4115-b790-0e0a1a4dabfa",
+    "data": [
+      {
+        "text": "fecha: ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "numberDateChoice",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "0e79c285-05d5-4f89-b450-c9972fc3506b",
+    "data": [
+      {
+        "text": "fecha ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "numberDateChoice",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1eee51ce-08f3-4965-a532-df1a386b7679",
+    "data": [
+      {
+        "text": "quiero la fecha ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "numberDateChoice",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "id": "81ee6253-ee8b-46ef-9f3e-1e342ce1482a",
+  "parentId": "0ecf0d3c-76e0-4b80-8bea-ed81a8ab1de4",
+  "rootParentId": "5d8c9809-a58f-4cb9-b35a-a3448c95ad21",
+  "name": "Service - select.number - custom",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup",
+    "Service-selectnumber-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-selectnumber.Service-selectnumber-custom",
+      "affectedContexts": [
+        {
+          "name": "Service-selectnumber-custom-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a5677bd6-ed2f-41da-807d-e98f499814b0",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "numberDateChoice",
+          "value": "$numberDateChoice",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a3907b1a-b1c2-4818-aa17-da749b3a4ccb",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "serviceNumber",
+          "value": "#Service-selectnumber-followup.numberServiceChoice",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "el usuario #DefaultWelcomeIntent-followup.identificatorUser ha selecionado la fecha $numberDateChoice  , para el servicio #Service-selectnumber-followup.numberServiceChoice"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

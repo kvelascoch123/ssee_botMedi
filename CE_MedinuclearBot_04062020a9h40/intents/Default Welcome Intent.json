@@ -1,0 +1,57 @@
+{
+  "id": "5d8c9809-a58f-4cb9-b35a-a3448c95ad21",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "numberIdentifierUser",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "961d42cd-596c-4d62-ba19-9e6f960e89a4",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "identificatorUser",
+          "value": "$identificatorUser",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Hola, soy tu asistente virtual de agendamiento de citas médicas.🏥🚑\nPorfavor dime tu número de cédula:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

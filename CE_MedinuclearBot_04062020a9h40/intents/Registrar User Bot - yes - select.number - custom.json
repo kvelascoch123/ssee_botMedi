@@ -1,0 +1,104 @@
+{
+  "id": "4df218bb-8015-46bf-ad92-ba16bf1ad3bd",
+  "parentId": "fd0db8a7-d08d-4e2b-8404-93dffb44cf70",
+  "rootParentId": "fcc3f15a-330a-43f0-b585-e108bb0a2265",
+  "name": "Registrar User Bot - yes - select.number - custom",
+  "auto": true,
+  "contexts": [
+    "RegistrarUserBot-followup",
+    "RegistrarUserBot-yes-selectnumber-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RegistrarUserBot.RegistrarUserBot-yes.RegistrarUserBot-yes-selectnumber.RegistrarUserBot-yes-selectnumber-custom",
+      "affectedContexts": [
+        {
+          "name": "RegistrarUserBot-yes-selectnumber-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e83581b0-43c9-492b-bd0f-aa6cb6c16b76",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "numberFecha",
+          "value": "$numberFecha",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "acd748bc-c5f5-4d08-a360-ac3cfcb1c624",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "nameUserCita",
+          "value": "#RegistrarUserBot-followup.name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d89af9be-f28c-45f0-a613-d2b62ac26194",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "lastNameCita",
+          "value": "#RegistrarUserBot-followup.lastName",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "be87c807-206d-431b-bfec-2e8d20ed9459",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "identificator",
+          "value": "#RegistrarUserBot-followup.identificator",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "1d5bac98-6cbc-4c3e-b722-2d375665e91a",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "numberService",
+          "value": "#RegistrarUserBot-yes-selectnumber-followup.numberService",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Señor(a) #RegistrarUserBot-followup.name #RegistrarUserBot-followup.lastName vamos a crear la siguiente cita: \nEspecialidad: #RegistrarUserBot-yes-selectnumber-followup.numberService  numero de especialidad\nFecha: $numberFecha numero de fecha\nHorario: Buscar en api\n\nSOLO FALTA BUSCAR HORARIOS Y CONFIRMAR LA CITA"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "value": "radiologia",
+    "synonyms": [
+      "radiología",
+      "radiologia",
+      "Radiología",
+      "Radiologia"
+    ]
+  },
+  {
+    "value": "tomografia",
+    "synonyms": [
+      "tomografía",
+      "Tomografia",
+      "Tomografía"
+    ]
+  },
+  {
+    "value": "imagen",
+    "synonyms": [
+      "Imagen"
+    ]
+  },
+  {
+    "value": "laboratorio",
+    "synonyms": [
+      "laboratorio",
+      "Laboratorio"
+    ]
+  }
+]

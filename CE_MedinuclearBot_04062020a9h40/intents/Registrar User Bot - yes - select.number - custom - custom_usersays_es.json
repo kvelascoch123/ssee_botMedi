@@ -1,0 +1,25 @@
+[
+  {
+    "id": "006d9318-4e73-462b-ab68-3d4fdc724ebc",
+    "data": [
+      {
+        "text": "hora",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "numberHour",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

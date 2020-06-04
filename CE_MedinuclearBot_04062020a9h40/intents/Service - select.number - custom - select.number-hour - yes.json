@@ -1,0 +1,50 @@
+{
+  "id": "caa6c3e5-823a-4374-be60-76bdba0c8e0d",
+  "parentId": "f5085005-6ab2-46ad-895e-2c99ba04e08c",
+  "rootParentId": "5d8c9809-a58f-4cb9-b35a-a3448c95ad21",
+  "name": "Service - select.number - custom - select.number-hour - yes",
+  "auto": true,
+  "contexts": [
+    "Service-selectnumber-custom-followup",
+    "Service-selectnumber-custom-selectnumber-hour-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-selectnumber.Service-selectnumber-custom.Service-selectnumber-custom-selectnumber.Service-selectnumber-custom-selectnumber-hour-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "34bc0349-c2b9-4ef7-8342-9729c7b43b6e",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "dniUserComplete",
+          "value": "#Service-selectnumber-custom-selectnumber-hour-followup.userIdentificator",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "#Service-selectnumber-custom-selectnumber-hour-followup.userIdentificator DNI a registrar la cita   fue enviada al correo buscando por dni"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

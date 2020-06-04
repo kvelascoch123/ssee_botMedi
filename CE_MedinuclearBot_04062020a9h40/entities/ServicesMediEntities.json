@@ -1,0 +1,9 @@
+{
+  "id": "43ae772f-3305-47ca-a890-ac87bbfbfde3",
+  "name": "ServicesMediEntities",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

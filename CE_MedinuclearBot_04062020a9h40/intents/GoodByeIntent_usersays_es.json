@@ -1,0 +1,88 @@
+[
+  {
+    "id": "79fcca2c-5aa9-4b49-a1df-619f1ac4ecf6",
+    "data": [
+      {
+        "text": "quiero salir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "51b40a7b-5759-4a22-8f77-491d0f49bc25",
+    "data": [
+      {
+        "text": "no estoy interesado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4935629b-d1e5-4080-a89d-9c3bd2ae149a",
+    "data": [
+      {
+        "text": "no me interesa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5d4aff3-7056-479a-b71d-89669cee13b8",
+    "data": [
+      {
+        "text": "chao",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "07cec936-1743-4320-b06b-d65245548367",
+    "data": [
+      {
+        "text": "abortar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "4eb7cce3-1bae-47c6-aba3-5e7db89225a5",
+    "data": [
+      {
+        "text": "no me importa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "946fde63-7c8a-4401-a25d-49ef51a16be9",
+    "data": [
+      {
+        "text": "salir",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

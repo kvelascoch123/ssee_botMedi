@@ -1,0 +1,84 @@
+{
+  "id": "0ecf0d3c-76e0-4b80-8bea-ed81a8ab1de4",
+  "parentId": "5d8c9809-a58f-4cb9-b35a-a3448c95ad21",
+  "rootParentId": "5d8c9809-a58f-4cb9-b35a-a3448c95ad21",
+  "name": "Service - select.number",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-selectnumber",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Service-selectnumber-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d929cd11-c1df-48cf-9610-a891a3c7c560",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "numberServiceChoice",
+          "value": "$numberServiceChoice",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Escoge el numero del servicio que deseas consultar porfavor"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "80258e9c-9822-4f2a-8439-82f4f546a7b7",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "idnUser",
+          "value": "#DefaultWelcomeIntent-followup.identificatorUser",
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Dime tu número de cédula porfavor"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "El numero selecscionado es $numberServiceChoice  por el usuario  #DefaultWelcomeIntent-followup.identificatorUser"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

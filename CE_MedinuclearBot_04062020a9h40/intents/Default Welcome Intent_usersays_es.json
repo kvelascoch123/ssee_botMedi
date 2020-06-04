@@ -1,0 +1,115 @@
+[
+  {
+    "id": "5d2e3067-465e-468e-bd18-d159528e4d88",
+    "data": [
+      {
+        "text": "Hola",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "6b2f9175-0960-4e82-ac2a-a1100b554ea5",
+    "data": [
+      {
+        "text": "hola ",
+        "userDefined": false
+      },
+      {
+        "text": "147",
+        "alias": "identificatorUser",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "52165323-2572-4581-9596-1e614a4221ce",
+    "data": [
+      {
+        "text": "mi numero de cedula es ",
+        "userDefined": false
+      },
+      {
+        "text": "1726754789",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "afda9aa8-b775-4cda-a4b9-976a66acb8e0",
+    "data": [
+      {
+        "text": "que me ofreces",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2c5742e0-eff7-4523-8ef1-eda6aa97dd42",
+    "data": [
+      {
+        "text": "delinoticias",
+        "alias": "identificatorUser",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "78f0b109-a435-413e-953d-d0b4b905606b",
+    "data": [
+      {
+        "text": "Hola ",
+        "userDefined": false
+      },
+      {
+        "text": "deli",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b3f07c91-e899-412d-8b56-36e538a43357",
+    "data": [
+      {
+        "text": "hola",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " @customer_data_context  ",
+        "userDefined": false
+      },
+      {
+        "text": "147",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 0
+  }
+]

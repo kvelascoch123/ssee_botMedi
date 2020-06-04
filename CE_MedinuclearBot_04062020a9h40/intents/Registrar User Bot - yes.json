@@ -1,0 +1,60 @@
+{
+  "id": "c152e12b-afeb-4979-824f-42f3a9194bc9",
+  "parentId": "fcc3f15a-330a-43f0-b585-e108bb0a2265",
+  "rootParentId": "fcc3f15a-330a-43f0-b585-e108bb0a2265",
+  "name": "Registrar User Bot - yes",
+  "auto": true,
+  "contexts": [
+    "RegistrarUserBot-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RegistrarUserBot.RegistrarUserBot-yes",
+      "affectedContexts": [
+        {
+          "name": "RegistrarUserBot-yes-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "RegistrarUserBot-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9503a6e8-1a04-4a41-8638-6c8d5539760f",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "nombre",
+          "value": "#RegistrarUserBot-followup.name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

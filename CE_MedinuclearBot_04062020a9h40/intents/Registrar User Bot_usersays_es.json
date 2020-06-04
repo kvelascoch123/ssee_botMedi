@@ -1,0 +1,39 @@
+[
+  {
+    "id": "50ce68e0-acaf-4ca7-b412-2762088a4c56",
+    "data": [
+      {
+        "text": "registrar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "79f70458-1836-4b5d-a83f-ba0e62510afe",
+    "data": [
+      {
+        "text": "registro",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a3cec958-6c33-4f67-9e8c-7d270e0b97d4",
+    "data": [
+      {
+        "text": "Registrarme",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

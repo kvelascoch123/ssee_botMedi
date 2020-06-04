@@ -1,0 +1,97 @@
+{
+  "id": "f5085005-6ab2-46ad-895e-2c99ba04e08c",
+  "parentId": "81ee6253-ee8b-46ef-9f3e-1e342ce1482a",
+  "rootParentId": "5d8c9809-a58f-4cb9-b35a-a3448c95ad21",
+  "name": "Service - select.number - custom - select.number-hour",
+  "auto": true,
+  "contexts": [
+    "Service-selectnumber-custom-followup",
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-selectnumber.Service-selectnumber-custom.Service-selectnumber-custom-selectnumber",
+      "affectedContexts": [
+        {
+          "name": "Service-selectnumber-custom-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Service-selectnumber-custom-selectnumber-hour-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "61d4d9e8-24bc-43c1-9dd2-df8d84cf6e22",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "numberHour",
+          "value": "$numberHour",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "157f9adf-aff9-4a6d-872a-75a2c0c11f4e",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "userIdentificator",
+          "value": "#DefaultWelcomeIntent-followup.identificatorUser",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "697fa567-c10a-4aef-b8bd-7e3645beca6b",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "numberService",
+          "value": "#Service-selectnumber-custom-followup.serviceNumber",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "c498df96-a520-4d1c-b7a8-2bb6c7cd6855",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "numberFecha",
+          "value": "#Service-selectnumber-custom-followup.numberDateChoice",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "DNI: $userIdentificator , SERVICIO: $numberService, FECHA: $numberFecha  HORA: $numberHour"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

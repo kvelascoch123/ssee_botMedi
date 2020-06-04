@@ -1,0 +1,55 @@
+{
+  "id": "fd0db8a7-d08d-4e2b-8404-93dffb44cf70",
+  "parentId": "c152e12b-afeb-4979-824f-42f3a9194bc9",
+  "rootParentId": "fcc3f15a-330a-43f0-b585-e108bb0a2265",
+  "name": "Registrar User Bot - yes - select.number",
+  "auto": true,
+  "contexts": [
+    "RegistrarUserBot-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RegistrarUserBot.RegistrarUserBot-yes.RegistrarUserBot-yes-selectnumber",
+      "affectedContexts": [
+        {
+          "name": "RegistrarUserBot-yes-selectnumber-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "488dc0f6-9a04-4c27-9734-80be03fd3911",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "numberService",
+          "value": "$numberService",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "$numberService selecionado"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

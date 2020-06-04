@@ -1,0 +1,139 @@
+{
+  "id": "459870c8-aab5-47cb-9c96-5f5471d1547e",
+  "parentId": "4df218bb-8015-46bf-ad92-ba16bf1ad3bd",
+  "rootParentId": "fcc3f15a-330a-43f0-b585-e108bb0a2265",
+  "name": "Registrar User Bot - yes - select.number - custom - custom",
+  "auto": true,
+  "contexts": [
+    "RegistrarUserBot-yes-selectnumber-custom-followup",
+    "RegistrarUserBot-followup",
+    "RegistrarUserBot-yes-selectnumber-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RegistrarUserBot.RegistrarUserBot-yes.RegistrarUserBot-yes-selectnumber.RegistrarUserBot-yes-selectnumber-custom.RegistrarUserBot-yes-selectnumber-custom-custom",
+      "affectedContexts": [
+        {
+          "name": "RegistrarUserBot-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "RegistrarUserBot-yes-selectnumber-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "RegistrarUserBot-yes-selectnumber-custom-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "65884543-bd4f-4398-9663-3e3e10188655",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "numberHour",
+          "value": "$numberHour",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "63526883-e067-4092-9627-41cb2781f0e2",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "userIdentificator",
+          "value": "#RegistrarUserBot-followup.identificator",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "c96e2d5c-1690-4104-8fb8-4b3f0279a527",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "numberService",
+          "value": "#RegistrarUserBot-yes-selectnumber-followup.numberService",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "36b2bf5d-0ea5-4860-863c-1535d54c5125",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "numberFecha",
+          "value": "#RegistrarUserBot-yes-selectnumber-custom-followup.numberFecha",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "3d03fecd-377b-42df-a13d-db9d16bde73c",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "userName",
+          "value": "#RegistrarUserBot-followup.name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "54a10180-feeb-46fa-be2a-9bea687fe51f",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "userLastName",
+          "value": "#RegistrarUserBot-followup.lastName",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "02ac30ae-e0d8-47bb-a719-e244f5ce0f65",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "userEmail",
+          "value": "#RegistrarUserBot-followup.correo",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "#RegistrarUserBot-followup.name , Has selecionado la hora $numberHour\npara el servicio #RegistrarUserBot-yes-selectnumber-followup.numberService\nen la fehca #RegistrarUserBot-yes-selectnumber-custom-followup.numberFecha"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "028a996e-3981-41c1-b588-6f735e4e2584",
+  "parentId": "459870c8-aab5-47cb-9c96-5f5471d1547e",
+  "rootParentId": "fcc3f15a-330a-43f0-b585-e108bb0a2265",
+  "name": "Registrar User Bot - yes - select.number - custom - custom - yes",
+  "auto": true,
+  "contexts": [
+    "RegistrarUserBot-followup",
+    "RegistrarUserBot-yes-selectnumber-followup",
+    "RegistrarUserBot-yes-selectnumber-custom-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RegistrarUserBot.RegistrarUserBot-yes.RegistrarUserBot-yes-selectnumber.RegistrarUserBot-yes-selectnumber-custom.RegistrarUserBot-yes-selectnumber-custom-custom.RegistrarUserBot-yes-selectnumber-custom-custom-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "es",
+          "condition": "",
+          "speech": "Señor(a) *#RegistrarUserBot-followup.name* ha registrado una cita en Medinuclear\nEsta información fue enviada a su correo electronico *#RegistrarUserBot-followup.correo*\nGracias por utilizar nuestro asistente virtual Medinuclear 🚑.\n\nRecuerda usar mascarilla en tiempos de COVID 😷"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
